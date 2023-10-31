@@ -68,32 +68,3 @@ const sendMessage = (e) => {
 chatInputFormAnnie.addEventListener('submit', sendMessage)
 
 
-const backSelectorBnt = document.querySelector ('.back_bnt')
-const chatContainer = document.querySelector ('.chat_container')
-const backBntIcon = document.querySelector('.back_bnt i')
-const personSelector = document.querySelector ('.person_selector')
-const personSelectorButton = document.querySelector ('.person_selector_button')
-const annieSelectorButton = document.querySelector ('#annie_selector')
-const janeSelectorButton = document.querySelector ('#jane_selector')
-const annieChatContainer = document.querySelector ('.chat_annie')
-const janeChatContainer = document.querySelector ('.chat_jane')
-
-
-backSelectorBnt.onclick = function() {
-  chatContainer.style.display = 'none';
-  backBntIcon.style.display = 'none';
-  personSelector.style.display = 'block';
-}
-
-annieSelectorButton.onclick = function() {
-  annieChatContainer.style.display = 'block';
-  personSelector.style.display = 'none';
-  backBntIcon.style.display = 'block';
-}
-
-janeSelectorButton.onclick = function() {
-  janeChatContainer.style.display = 'block';
-  personSelector.style.display = 'none';
-  backBntIcon.style.display = 'block';
-}
-
