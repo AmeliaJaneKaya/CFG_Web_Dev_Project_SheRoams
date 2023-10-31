@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SheRoams</title>
+
+    <link rel="stylesheet" href="StyleProject.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bf8f18b487.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+      <div class="container">
+          
+        <div class="logo">
+        <img src="Logo1.png" alt="logo" class="logo_img">  
+        <h1 class="logo_name"><a href="#">SheRoams</a></h1>
+        </div>
+        
+          <nav class="navbar">
+            <ul class="links">
+                <li><a href="index.html" id="navbarmenu">Home</a></li>
+                <li>
+                  <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Stays
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="thailand.html">Thailand</a></li>
+                      <li><a class="dropdown-item" href="france.html">France</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="contactus.html" id="navbarmenu">Contact Us</a></li>           
+            </ul>
+            <div class="icon">
+            <a href="profile.html"><i id="navbar_icon" class="fa-sharp fa-solid fa-user"></i></a>
+            <a href="#"><i id="navbar_icon" class="fa-sharp fa-solid fa-bell"></i></a>
+            <a href="messaging.html"><i id="navbar_icon" class="fa-sharp fa-solid fa-message"></i></a>
+            </div>
+          </nav>
+
+          <div class="toggle_bnt">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+          </div>
+      </div>
+
+      <div class="dropdown_menu">
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <div class="dropdown">
+              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Stays
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="thailand.html">Thailand</a></li>
+                <li><a class="dropdown-item" href="france.html">France</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="contactus.html">Contact Us</a></li>
+          <div class="dropdown_menu_icon">
+            <a href="profile.html"><i class="fa-sharp fa-solid fa-user"></i></a>
+            <a href="#"><i class="fa-sharp fa-solid fa-bell"></i></a>
+            <a href="messaging.html"><i class="fa-sharp fa-solid fa-message"></i></a>
+          </div>
+      </div>
+    </header>
+
+    <h2 class="pagetitle">Profile</h2>
+
+    <div class="user_profile">
+      
+      <div class="profile_header">
+        <div class="profile_img"> 
+          <img src="Profile pic.jpg" id="output" alt="Oups there seems to be an error">
+        </div>
+
+        <div class="profile_nav_info">
+          
+            <h3 class="user_name">Joan Smith</h3>
+            
+              <div class="address">
+                <i id="icon" class="fa-sharp fa-solid fa-location-dot"></i>
+                <p>Address</p>
+              </div>
+
+              <div class="spoken_language">
+                <i id="icon" class="fa-sharp fa-solid fa-comment"></i>
+                <p>Spoken Languages</p>
+              </div>
+
+              <div class="email">
+                <i id="icon" class="fa-sharp fa-solid fa-envelope"></i>
+                <p>example@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i id="icon" class="fa-sharp fa-solid fa-phone"></i>
+                <p>+44 0 000 000 000</p>
+              </div>
+              
+              <div class="bio">
+                <h6>A little about me</h6>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, fuga! Odio nemo quibusdam voluptatum omnis quaerat doloremque libero ut similique non, consectetur placeat distinctio beatae culpa eos, nihil quasi rem.</p>
+              </div>
+        </div>
+
+      </div>
+
+      <div class="profile_reviews">
+        
+        <h3>My reviews</h3>
+
+        <div class="reviews">
+        
+          <div id="review">
+            <div class="homeownerprofile">
+              <img src="Profile pic.jpg" class="homestay_img" alt="..." width="100">
+              <h6>Annie</h6>
+            </div>
+            <div class="homeownerreview">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam corporis pariatur dignissimos voluptates aspernatur accusamus voluptatem mollitia assumenda distinctio excepturi eveniet aut laborum rerum vero quos quaerat, tenetur recusandae iste.</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+
+          <div id="review">
+            <div class="homeownerprofile">
+              <img src="Profile pic.jpg" class="homestay_img" alt="..." width="100">
+              <h6>Annie</h6>
+            </div>
+            <div class="homeownerreview">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam corporis pariatur dignissimos voluptates aspernatur accusamus voluptatem mollitia assumenda distinctio excepturi eveniet aut laborum rerum vero quos quaerat, tenetur recusandae iste.</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+
+          <div id="review">
+            <div class="homeownerprofile">
+              <img src="Profile pic.jpg" class="homestay_img" alt="..." width="100">
+              <h6>Annie</h6>
+            </div>
+            <div class="homeownerreview">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam corporis pariatur dignissimos voluptates aspernatur accusamus voluptatem mollitia assumenda distinctio excepturi eveniet aut laborum rerum vero quos quaerat, tenetur recusandae iste.</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="footer_content">
+            <p>© 2023 Sheroams, Inc.</p>
+            <ul class="footer_links">
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Company details</a></li>
+            </ul>
+            <div class="icon_footer">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div> 
+        </div>
+    </div>
+  </footer>
+
+    <script src="project.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
